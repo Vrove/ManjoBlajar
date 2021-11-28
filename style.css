@@ -102,6 +102,7 @@
     color: #132C33;
     padding-bottom: 100px;
     background-image: url(elements/bg-kontak.png);
+    background-repeat: no-repeat;
     padding-top: 20px;
     padding-bottom: 100px;
 }
@@ -146,6 +147,69 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
+}
+
+.daftar{
+    background-image: url(elements/bg.png);
+    background-repeat: no-repeat;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.daftar .logo-daftar img{
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.daftar-form{
+    color: #132C33;
+    margin-bottom: 25px;
+}
+
+.daf-button{
+    background-color: #126E82;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+}
+
+.daftar-sk{
+    background-image: url(elements/bg.png);
+    background-repeat: no-repeat;
+    font-size: 40px;
+    text-align: center;
+    color: #132C33;
+    padding-bottom: 50px;
+}
+
+.daftar-sk .logo-daftar-sk img{
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.daftar-sk .daf-sk-head{
+    font-size: 40px;
+}
+
+.daftar-sk .daf-sk-head span{
+    color: #0DCEDA;
+}
+
+.daftar-sk p{
+    font-size: 25px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -403,5 +467,20 @@
         padding-bottom: 10px;
         border-radius: 25px;
     }
+
+    .daftar{
+        background-image: url(elements/bg.png);
+        background-repeat: no-repeat;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        padding-bottom: 50px;
+    }
     
+    .daftar .logo-daftar img{
+        width: 300px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
 }

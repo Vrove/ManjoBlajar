@@ -1,0 +1,398 @@
+*{
+    font-family: 'Poppins';
+}
+
+.program{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: #132C33;
+    padding-bottom: 100px;
+}
+
+.prog-head{
+    font-size: 40px;
+}
+
+.prog-head span{
+    color: #0DCEDA;
+}
+
+.prog-subhead{
+    font-size: 17px;
+}
+
+.prog-line img{
+    height: 5px;
+    margin-top: -150px;
+    margin-bottom: -80px;
+}
+
+.prog-img img{
+    width: 230px;
+}
+
+.on-vid{
+    font-size: 39px;
+}
+
+.prog-text{
+    margin-top: -80px;
+    font-size: 15px;
+}
+
+.prog-button{
+    background-color: #126E82;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+}
+
+.testimoni{
+    font-size: 49px;
+    text-align: center;
+    color: white;
+    background-color: #51C4D3;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.testi-head{
+    font-size: 40px;
+}
+
+.testi-head span{
+    color: #132C33;
+}
+
+.testi-subhead{
+    font-size: 17px;
+}
+
+.testi-line img{
+    width: 380px;
+    margin-top: -150px;
+    margin-bottom: -80px;
+}
+
+.testi-upper{
+    padding-bottom: 50px;
+}
+
+.kontak{
+    font-size: 40px;
+    text-align: center;
+    color: #132C33;
+    padding-bottom: 100px;
+    background-image: url(elements/bg-kontak.png);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.kon-subhead{
+    font-size: 17px;
+}
+
+.kon-line img{
+    height: 5px;
+    margin-top: -150px;
+    margin-bottom: -80px;
+}
+
+.kon-inf-left{
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.kon-inf-right{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.kon-form-upper-2{
+    margin-bottom: 25px;
+}
+
+.kon-button{
+    background-color: #126E82;
+    display: block;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .testi-img img{
+        width: 270px;
+        padding-bottom: 10px;
+    }
+
+    .testi-text{
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .testi-text-sp{
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 977.60px) and (max-width: 1180px) {
+    .on-vid{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .testi-img img{
+        width: 270px;
+        padding-bottom: 10px;
+    }
+
+    .testi-text{
+        text-align: left;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .testi-text-sp{
+        font-size: 16px;
+    }
+
+    .kon-inf-left{
+        font-size: 30px;
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+    .kon-inf-right{
+        font-size: 30px;
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+    .kon-form-upper-2{
+        margin-bottom: 25px;
+    }
+
+    .kon-button{
+        background-color: #126E82;
+        display: block;
+        border: none;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        cursor: pointer;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 977px){
+    .on-vid{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .testi-img img{
+        width: 270px;
+        padding-bottom: 10px;
+    }
+
+    .testi-text{
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .testi-text-sp{
+        font-size: 22px;
+    }
+
+    .kon-inf-left{
+        font-size: 20px;
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+    .kon-inf-right{
+        font-size: 20px;
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+    .kon-form-upper-2{
+        margin-bottom: 25px;
+    }
+
+    .kon-button{
+        background-color: #126E82;
+        display: block;
+        border: none;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        cursor: pointer;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .program{
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        background-color: #132C33;
+    }
+    
+    .prog-head{
+        font-size: 40px;
+    }
+    
+    .prog-head span{
+        color: #0DCEDA;
+    }
+
+    .prog-subhead{
+        font-size: 20px;
+    }
+    
+    .prog-line img{
+        height: 5px;
+        width: 250px;
+        margin-top: -90px;
+        margin-bottom: -80px;
+    }
+
+    .on-vid{
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+
+    .prog-img img{
+        width: 250px;
+    }
+    
+    .prog-text{
+        margin-top: -90px;
+        font-size: 15px;
+    }
+
+    .prog-button{
+        background-color: #126E82;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 25px;
+        margin-top: 20px;
+    }
+
+    .testimoni{
+        font-size: 49px;
+        text-align: center;
+        color: white;
+        background-color: #51C4D3;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .testi-head{
+        font-size: 40px;
+    }
+    
+    .testi-head span{
+        color: #132C33;
+    }
+    
+    .testi-subhead{
+        font-size: 17px;
+    }
+    
+    .testi-line img{
+        width: 380px;
+        margin-top: -150px;
+        margin-bottom: -80px;
+    }
+    
+    .testi-text{
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    
+    .testi-img img{
+        width: 250px;
+        padding-bottom: 20px;
+    }
+
+    .kon-inf-left{
+        font-size: 20px;
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+    .kon-inf-right{
+        font-size: 30px;
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+    .kon-form-upper{
+        margin-bottom: 25px;
+    }
+
+    .kon-form-upper-2{
+        margin-bottom: 25px;
+    }
+
+    .kon-button{
+        background-color: #126E82;
+        display: block;
+        border: none;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        cursor: pointer;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 25px;
+    }
+    
+}

@@ -88,6 +88,14 @@
     padding-bottom: 50px;
 }
 
+.testi-img img{
+    transition: transform .2s;
+}
+
+.testi-img img:hover{
+    transform: scale(1.2);
+}
+
 .kontak{
     font-size: 40px;
     text-align: center;
@@ -145,6 +153,7 @@
         width: 200px;
         padding-bottom: 10px;
     }
+
 
     .testi-text{
         text-align: left;

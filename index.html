@@ -15,6 +15,53 @@
     <title>ManjoBlajar</title>
   </head>
   <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <p>Manjo<span>Blajar</span></p>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu font-weight-bold">
+          <li><a href="#about ">About</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#testimoni">Testimoni</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+          <li><a class="login" href="#">
+            <button class="button login-button font-weight-bold">Login</button>
+          </a></li>
+        </div>
+      </ul>
+    </nav>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-1 col-md-1 col-sm-1">
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-5">
+            <p class="about-head font-weight-bold">
+              Platform
+              <br><span>Belajar Online</span>
+            </p>
+            <p class="about-subhead">
+              Mulai dari E-Books, Online
+              <br>Video, Berbagai macam
+              <br>Exercise.
+            </p>
+            <a href="daftar.html">
+              <button class="button about-button font-weight-bold">Daftar Sekarang!</button>
+            </a>
+          </div>
+          <div class="about-img col-lg-5 col-md-5 col-sm-5">
+            <img src="elements/about-img.png" alt="gambar">
+          </div>
+          <div class="col-lg-1 col-md-1">
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="program" id="program">
       <p class="prog-head font-weight-bold">Pro<span>gram</span></p>
       <p class="prog-subhead">Apa saja yang ditawarkan</p>
@@ -74,7 +121,6 @@
         </div>
       </div>
     </section>
-
     <section class="testimoni" id="testimoni">
       <p class="testi-head font-weight-bold"><span>Testi</span>moni</p>
       <p class="testi-subhead">Testimoni dari beberapa pengguna!</p>
@@ -192,7 +238,6 @@
         </div>
       </div>
     </section>
-
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
